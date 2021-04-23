@@ -1,0 +1,38 @@
+.arrow-previous{
+    width: 40px;
+    height: 60px;
+    position: relative;
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 0px 10px 10px 0px;  
+}
+
+.arrow-previous::after ,.arrow-previous::before{
+    content: " ";
+    width: 50%;
+    height: 4px;
+    position: absolute;
+    background-color: white;
+    margin-left:20%;   
+}
+
+.arrow-previous::after{
+    top:22px;
+    transform: rotate(-45deg);;
+}
+.arrow-previous::before{
+    bottom:22px;
+    transform: rotate(45deg);
+}
+
+.container-arrow-previous{
+    position: fixed;
+    top:50%;
+    left: 0px;
+}
+
+@media (max-width:414px){
+    .arrow-previous{
+        display: none;
+    }
+}

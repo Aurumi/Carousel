@@ -1,0 +1,59 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+ }
+ 
+ #root{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+html{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.carousel{
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden; 
+    overflow-x: hidden; 
+    color:black;
+    display: flex;
+    
+}
+
+.carousel__slide{
+    min-width: 100%;
+    height: 100%;
+    transition: all 1.4s ease 0s;
+    display: flex;
+   
+    
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;  
+} 
+
+.carousel__slide__noTransition{
+    min-width: 100%;
+    height: 100%;
+    transition: none;
+    display: flex;
+    
+     
+}
+
+
